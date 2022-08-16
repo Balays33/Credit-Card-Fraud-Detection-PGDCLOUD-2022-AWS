@@ -31,6 +31,7 @@ features = []
 @app.route("/")
 def loadPage():
 	return render_template('home.html', query="")
+	return render_template('index.html', query="")
 
 
 @app.route("/", methods=['POST'])
