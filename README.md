@@ -33,7 +33,7 @@ $ virtualenv env && source env/bin/activate && pip install -r requirements.txt
 Usage
 a) Read the Paper (PDF):
 
-credit_card_fraud_detection.pdf
+Cloud Machine Learning Report.pdf
 
 b) Run the Jupyter Notebook:
 
