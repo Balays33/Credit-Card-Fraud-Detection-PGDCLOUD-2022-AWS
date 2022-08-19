@@ -7,4 +7,4 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 
-CMD [ "python3", "./ToDoApp/manage.py", "runserver", "0.0.0.0:8080"]
+CMD [ "python3", "./app.py", "runserver", "0.0.0.0:8080"]
