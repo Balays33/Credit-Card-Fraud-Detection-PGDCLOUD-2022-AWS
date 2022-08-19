@@ -28,3 +28,20 @@ $ git clone https://github.com/Balays33/Credit-Card-Fraud-Detection-PGDCLOUD-202
 Pip-install dependencies. For example using a virtualenv:
 
 $ virtualenv env && source env/bin/activate && pip install -r requirements.txt
+
+
+Usage
+a) Read the Paper (PDF):
+
+credit_card_fraud_detection.pdf
+
+b) Run the Jupyter Notebook:
+
+find the the dataset:
+$ https://www.kaggle.com/datasets/kartik2112/fraud-detection/code
+
+Generate a balanced dataset using ADASYN resampling (this will take several minutes):
+$ python app.py
+
+Run the notebook:
+$ jupyter notebook
