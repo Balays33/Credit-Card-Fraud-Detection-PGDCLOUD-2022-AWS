@@ -37,7 +37,7 @@ jobs:
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
-        image: balays33/todoapp_by_balazs
+        image: balays33/Credit-Card-Fraud-Detection-PGDCLOUD-2022-AWS
         tag: Credit-Card-Fraud-Detection-PGDCLOUD-2022-AWS 
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
